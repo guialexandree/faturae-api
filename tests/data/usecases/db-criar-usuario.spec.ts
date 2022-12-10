@@ -32,7 +32,7 @@ describe('Caso de uso - DbAddAccount', () => {
 
     expect(validarUsuarioPorEmailRepositorySpy.email).toBe(addAccountParams.email)
   })
-	
+
 	test('Deve retornar false se ValidarUsuarioPorEmailRepository retornar true', async () => {
     const { sut, validarUsuarioPorEmailRepositorySpy } = makeSut()
 		validarUsuarioPorEmailRepositorySpy.result = true

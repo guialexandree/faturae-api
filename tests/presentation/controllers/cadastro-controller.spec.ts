@@ -10,7 +10,7 @@ const mockRequest = (): CadastroController.Request => {
   return {
 		nome: faker.name.findName(),
 		email: faker.internet.email(),
-		senha: senha,
+		senha,
 		confirmacaoSenha: senha
   }
 }
