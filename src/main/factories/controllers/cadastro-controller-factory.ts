@@ -8,7 +8,7 @@ export const criarCadastroController = (): Controller => {
   const controller = new CadastroController(
 		criarDbCriarUsuario(),
 		criarCadastroValidation(),
-		criarDbAutenticacao(),
+		criarDbAutenticacao()
   )
 
   return criarControllerDecorator(controller)

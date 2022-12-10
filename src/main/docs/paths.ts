@@ -1,6 +1,6 @@
 import {
 	cadastroPath,
-	loginPath,
+	loginPath
 } from './paths/'
 
 export default {
